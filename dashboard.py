@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import plotly.express as px
 
 #df=pd.read_excel(    'data.xlsx',    sheet_name='Sheet1',    header=0)
 
