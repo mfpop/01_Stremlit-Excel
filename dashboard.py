@@ -6,10 +6,9 @@ df=pd.read_excel('Etiquetas.xlsx')
 
 st.set_page_config(page_title='Dashboard', page_icon=':bar_chart:', layout='wide')
  
-st.write("""   ## Production dashboard    """)
-st.write("""   ### Efficiency    """)
+st.write(df)
 
          
 #create sidebar table with filters and data columns
 
-st.sidebar.title('Filter by:') 
+st.sidebar.title('Filter by:')
